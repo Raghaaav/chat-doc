@@ -7,8 +7,7 @@ import { PPTComponent } from './component/PPTComponent';
 function App() {
 
   return (
-    <BrowserRouter>
-
+    <>
       <Routes>
         <Route path="/" element={<MainComponent />} />
         <Route path="/pdf" element={<PdfComponent />} />
@@ -17,7 +16,7 @@ function App() {
 
       </Routes>
 
-    </BrowserRouter>
+    </>
   );
 }
 
